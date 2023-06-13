@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project3</string>
+    <string name="Number">Number</string>
+    <string name="Multi">* 2</string>
+    <string name="Minus">- 2</string>
+    <string name="Plus">+ 2</string>
+    <string name="Divide">/ 2</string>
+    <string name="Reset">Reset</string>
+</resources>

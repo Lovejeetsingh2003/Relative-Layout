@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/sky"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Number"
+        android:id="@+id/tvNumber"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="30dp"
+        android:textSize="40sp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Minus"
+        android:id="@+id/btnMinus"
+        android:textSize="40sp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/tvNumber" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Multi"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/btnMulti"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/tvNumber" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Plus"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/btnPlus"
+        android:textSize="40sp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/tvNumber" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Divide"
+        android:textSize="40sp"
+        android:id="@+id/btnDivide"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvNumber" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Reset"
+        android:textSize="40sp"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/btnReset"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        />
+
+</RelativeLayout>
